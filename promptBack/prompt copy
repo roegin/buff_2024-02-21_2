@@ -1,0 +1,27 @@
+
+
+"创建一个类似于 CSGO 交易平台的网页应用的初始项目结构。该项目的目标是促进虚拟物品（如游戏内武器）的交易。它应该具有用户友好的界面，用于浏览物品、管理用户账户和执行交易。后端将处理物品列表、用户数据和交易事务。
+
+使用ts
+
+项目结构：
+1. 前端（React）：
+   - src：
+     - index.js：入口点。
+     - App.js：主组件。
+     - components：可复用的 UI 组件。
+     - pages：首页、物品交易、用户账户。
+     - router：React Router 用于导航。
+     - redux：状态管理。
+
+2. 后端（Node.js/Express）：
+   - server：
+     - app.js：主服务器文件。
+     - routes：API 路由。
+     - controllers：业务逻辑。
+     - models：用户、物品的数据模型。
+
+3. 数据库：存储用户数据、物品列表。
+
+4. Public：静态资源，如图片、CSS。"
+
