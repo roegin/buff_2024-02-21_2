@@ -1,0 +1,34 @@
+# Remove '#' to select a file.
+
+# gpt-engineer can only read selected files. Including irrelevant files will degrade performance, cost additional tokens and potentially overflow token limit.
+
+[files]
+"package-lock.json" = "selected"
+"package.json" = "selected"
+prompt = "selected"
+"run.sh" = "selected"
+# "promptBack\\prompt copy" = "selected"
+"server\\app.js" = "selected"
+"src\\App.js" = "selected"
+"src\\index.js" = "selected"
+"server\\controllers\\itemController.js" = "selected"
+"server\\controllers\\tradeController.js" = "selected"
+"server\\controllers\\userController.js" = "selected"
+"server\\models\\itemModel.js" = "selected"
+"server\\models\\tradeModel.js" = "selected"
+"server\\models\\userModel.js" = "selected"
+"server\\routes\\itemRoutes.js" = "selected"
+"server\\routes\\tradeRoutes.js" = "selected"
+"server\\routes\\userRoutes.js" = "selected"
+"src\\components\\Navbar.js" = "selected"
+"src\\pages\\AccountPage.js" = "selected"
+"src\\pages\\HomePage.js" = "selected"
+"src\\pages\\TradePage.js" = "selected"
+"src\\redux\\store.js" = "selected"
+"src\\redux\\actions\\itemActions.js" = "selected"
+"src\\redux\\actions\\tradeActions.js" = "selected"
+"src\\redux\\actions\\userActions.js" = "selected"
+"src\\redux\\reducers\\itemReducer.js" = "selected"
+"src\\redux\\reducers\\tradeReducer.js" = "selected"
+"src\\redux\\reducers\\userReducer.js" = "selected"
+# 
